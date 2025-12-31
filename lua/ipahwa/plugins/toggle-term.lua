@@ -4,7 +4,6 @@ return {
   config = function()
     require("toggleterm").setup({
       size = 20,
-      open_mapping =[[<leader>t]], 
       direction = 'float',      -- 'float' stays on top of nvim-tree and code
       float_opts = {
         border = 'curved',      -- Makes it look nice
